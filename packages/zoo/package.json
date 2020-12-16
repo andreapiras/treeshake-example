@@ -1,0 +1,21 @@
+{
+  "name": "@transferwise/zoo",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "rm -rf .next && next build",
+    "start": "next start",
+    "analyze": "ANALYZE=true yarn build"
+  },
+  "dependencies": {
+    "@next/bundle-analyzer": "^10.0.2",
+    "@transferwise/animals-ui": "file:.yalc/@transferwise/animals-ui",
+    "next": "^10.0.0",
+    "react": "16.13.1",
+    "react-dom": "16.13.1"
+  },
+  "devDependencies": {
+    "@next/bundle-analyzer": "^10.0.2"
+  }
+}
